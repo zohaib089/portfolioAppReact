@@ -10,6 +10,9 @@ import djangoRest from '../img/django-rest.gif'
 import MyFavPro from './MyFavPro'
 import MyServices from './MyServices';
 import ContactMe from "./ContactMe";
+import Angular8 from '../img/Angular.gif'
+import Vue from '../img/vue.gif'
+
 export default class landing extends Component {
 
     render() {
@@ -282,7 +285,107 @@ export default class landing extends Component {
                         borderRadius: "20px"
                     }}>
                         <div>
-                            <h2 className="text-center mt-5">React Js</h2>
+                            <h2 className="text-center mt-5">REACT Js</h2>
+                            <h3 className="text-center">Invented By Facebook Is a powerFul Framework</h3>
+                            <p className="text-lead">Declarative
+                                                React makes it painless to create interactive UIs. Design simple views
+                                                for each state in your application, and React will efficiently update and
+                                                render just the right components when your data changes.
+
+                                                Declarative views make your code more predictable and easier to debug.<br />
+                                Build encapsulated components that manage their own state,
+                                then compose them to make complex UIs.
+
+
+                                Since component logic is written in J
+                                avaScript instead of templates, you can easily
+                                pass rich data through your app and keep state out of the DOM.
+                                                <br />
+                                We don’t make assumptions about the rest of your technology stack,
+                                so you can develop new features in React without rewriting existing code.
+
+                                React can also render on the server using
+                                Node and power mobile apps using React Native.
+                                                <br />
+                                React components implement a render() method
+                                that takes input data and returns what to display.
+                                This example uses an XML-like syntax called JSX.
+                                Input data that is passed into the component can be accessed
+                                by render() via this.props.
+                                 </p>
+                        </div>
+                    </Col>
+                </Row>
+                <Row className="mt-2">
+
+
+                    <Col className="ml-5 shadow-lg" lg={5} style={{
+                        border: "2px solid gray",
+                        borderRadius: "20px"
+                    }}>
+                        <div>
+                            <h2 className="text-center mt-5">ANGULAR Js</h2>
+                            <h3 className="text-center">Invented By Facebook Is a powerFul Framework</h3>
+                            <p className="text-lead">Declarative
+                                                React makes it painless to create interactive UIs. Design simple views
+                                                for each state in your application, and React will efficiently update and
+                                                render just the right components when your data changes.
+
+                                                Declarative views make your code more predictable and easier to debug.<br />
+                                Build encapsulated components that manage their own state,
+                                then compose them to make complex UIs.
+
+
+                                Since component logic is written in J
+                                avaScript instead of templates, you can easily
+                                pass rich data through your app and keep state out of the DOM.
+                                                <br />
+                                We don’t make assumptions about the rest of your technology stack,
+                                so you can develop new features in React without rewriting existing code.
+
+                                React can also render on the server using
+                                Node and power mobile apps using React Native.
+                                                <br />
+                                React components implement a render() method
+                                that takes input data and returns what to display.
+                                This example uses an XML-like syntax called JSX.
+                                Input data that is passed into the component can be accessed
+                                by render() via this.props.
+                                 </p>
+                        </div>
+                    </Col>
+                    <Col className=" ml-2" lg={6}>
+                        <div>
+                            <img className="img-fluid" src={Angular8} style={{
+                                opacity: "0.8",
+                                border: "2px solid gray",
+                                borderRadius: "20px",
+                                height: "570px",
+
+                            }} alt="Gifffiiii" />
+                        </div>
+
+                    </Col>
+                </Row>
+                <Row className="mt-2">
+
+                    <Col className=" ml-5" lg={5}>
+                        <div>
+                            <img className="img-fluid" src={Vue} style={{
+                                opacity: "0.8",
+                                border: "2px solid gray",
+                                borderRadius: "20px",
+                                height: "470px"
+                            }} alt="Gifffiiii" />
+                        </div>
+
+                    </Col>
+                    <Col className="shadow-lg" lg={6} style={{
+                        border: "2px solid gray",
+                        borderRadius: "20px"
+                    }}>
+                        <div>
+                            <h2 className="text-center mt-5">VUE Js</h2>
                             <h3 className="text-center">Invented By Facebook Is a powerFul Framework</h3>
                             <p className="text-lead">Declarative
                                                 React makes it painless to create interactive UIs. Design simple views

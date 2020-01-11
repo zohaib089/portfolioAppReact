@@ -3,7 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap'
 import styled, { keyframes } from 'styled-components'
 import Main from './main';
 import Logo from '../img/logo.png';
-
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -73,38 +73,38 @@ export default function Layout_com() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="/">
+            <NavLink to="/">
               <Button style={{
                 color: "green"
               }}> <i style={{
                 color: "green"
               }} className="fa fa-home"></i> Home</Button>
 
-            </Nav.Link>
-            <Nav.Link href="/resume">  <Button style={{
+            </NavLink>
+            <NavLink to="/resume">  <Button style={{
               color: "blue"
             }}><i style={{
               color: "blue"
-            }} className="fa fa-file"></i> Resume</Button></Nav.Link>
-            <Nav.Link href="/projects">  <Button style={{
+            }} className="fa fa-file"></i> Resume</Button></NavLink>
+            <NavLink to="/projects">  <Button style={{
               color: "yellow"
             }}> <i style={{
               color: "yellow"
-            }} className="fa fa-tasks"></i> Projects</Button></Nav.Link>
-            <Nav.Link href="/contact"> <Button style={{
+            }} className="fa fa-tasks"></i> Projects</Button></NavLink>
+            <NavLink to="/contact"> <Button style={{
               color: "violet"
             }}><i style={{
               color: "violet"
-            }} className="fa fa-address-book"></i> Admin</Button></Nav.Link>
-            <Nav.Link href="/Login"> <Button style={{
+            }} className="fa fa-address-book"></i> Admin</Button></NavLink>
+            <NavLink to="/Login"> <Button style={{
               color: "#166557"
             }}>
-              <img src="https://img.icons8.com/android/18/000000/login-rounded-right.png" />  Login</Button></Nav.Link>
+              <img src="https://img.icons8.com/android/18/000000/login-rounded-right.png" />  Login</Button></NavLink>
 
-            <Nav.Link href="/Register"> <Button style={{
+            <NavLink to="/Register"> <Button style={{
               color: "#2D6E95"
             }}>
-              <img src="https://img.icons8.com/color/18/000000/add-user-male--v2.png" /> Register</Button></Nav.Link>
+              <img src="https://img.icons8.com/color/18/000000/add-user-male--v2.png" /> Register</Button></NavLink>
 
           </Nav>
 
