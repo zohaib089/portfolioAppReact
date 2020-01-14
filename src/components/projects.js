@@ -107,6 +107,18 @@ class Projects extends React.Component {
         ]
     }
 
+
+    selectedProject = (id) => {
+        this.state.reactProjects.filter((product) => {
+            if (product.id === id) {
+                return product
+            }
+            else {
+                return null;
+            }
+        })
+    }
+
     ReactProjects = () => (
         this.state.reactProjects.map(proj => {
             return (

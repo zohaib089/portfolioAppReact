@@ -24,7 +24,7 @@ export default function Education() {
             }}>
 
                 <Col lg={3}> <div className="shadow-sm mt-3">
-                    <h1 eventKey="first">Bachelor in Computer System Engineering</h1>
+                    <h1>Bachelor in Computer System Engineering</h1>
 
                 </div></Col>
                 <Col lg={9}> <div className="shadow-lg" style={{

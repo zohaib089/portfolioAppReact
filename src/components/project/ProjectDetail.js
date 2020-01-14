@@ -6,9 +6,9 @@ import Porto from '../../img/porto.gif'
 import Football from '../../img/football.gif'
 import Payment from '../../img/payment.GIF'
 export default class ProjectDetail extends React.Component {
+
     render() {
-
-
+        const { title, detail, image } = this.props.location.myCustomProps
         return (
             <div className="container-fluid" style={{
                 marginTop: "7rem"
@@ -16,7 +16,7 @@ export default class ProjectDetail extends React.Component {
                 <Container>
                     <Row>
                         <Col lg={6}>
-                            <img src={Ecom} alt="ecommerce" className="img-detail img-fluid" style={{
+                            <img src={image} alt="ecommerce" className="img-detail img-fluid" style={{
                                 border: "2px solid gray",
                                 borderRadius: "20px"
                             }} />
@@ -26,9 +26,7 @@ export default class ProjectDetail extends React.Component {
                             borderRadius: "20px"
                         }}>
                             <div>
-                                <h2 className="text-center mt-5" style={{
-                                    color: "white"
-                                }}>React Ecommerce Project</h2>
+                                <h2 className="text-center mt-5" >{title}</h2>
                                 <h3 className="text-center" style={
                                     {
                                         color: "white"

@@ -22,7 +22,7 @@ export default function Experience() {
             }} className="mt-5">
                 <Col lg={3}>
                     <div className="mt-5 shadow-sm">
-                        <h1 eventKey="first">Free Lancing</h1>
+                        <h1 >Free Lancing</h1>
                         <h6>Duration: 2016-2018</h6>
                         <p>Front End Developer</p>
                     </div>
@@ -48,7 +48,7 @@ export default function Experience() {
                 </Col>
                 <Col lg={3}>
                     <div className="mt-5 shadow-sm">
-                        <h1 eventKey="first">CGM Consulting</h1>
+                        <h1 >CGM Consulting</h1>
                         <h6>Duration: oct-2018 -> may-2019</h6>
                         <p>React Developer</p>
                     </div>
@@ -74,7 +74,7 @@ export default function Experience() {
                 </Col>
                 <Col lg={3}>
                     <div className="mt-5 shadow-sm">
-                        <h1 eventKey="first">Aton Informatica</h1>
+                        <h1 >Aton Informatica</h1>
                         <h6>Duration: sep 2019-To Present</h6>
                         <p>React Developer</p>
 

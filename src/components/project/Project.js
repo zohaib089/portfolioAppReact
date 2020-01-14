@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 import { Col, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import ProjectDetail from './ProjectDetail'
 
 export default class Project extends Component {
     render() {
         const { id, image, title, detail } = this.props.proj;
+
+        // console.log(this.props.proj)
         return (
             <div>
                 <Col key={id} lg={4} sm={12} style={{
@@ -25,11 +28,18 @@ export default class Project extends Component {
                             <Card.Text>
                                 {detail}
                             </Card.Text>
-                            <Button variant="primary"><Link className="text-white" state={this.props.proj} to="/project-detail">Detail</Link> </Button>
+                            <Button variant="primary"><Link to={
+                                {
+                                    pathname: `/projects/` + id,
+                                    myCustomProps: this.props.proj
+                                }
+                            } state={this.props.proj}>
+                                Detail
+                            </Link> </Button>
                         </Card.Body>
                     </Card>
                 </Col>
-            </div>
+            </div >
         )
     }
 }
