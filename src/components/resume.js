@@ -15,9 +15,12 @@ import Interests from './Resume/Interests';
 class Resume extends Component {
     render() {
         return (
-            <Container className="container-fluid" style={{
-                marginTop: "7rem"
-            }}>
+            <Container className="container-fluid"
+                style={{
+                    marginTop: "6.1rem"
+                }}
+
+            >
                 <Header />
                 <Skills />
                 <Experience />

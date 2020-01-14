@@ -6,7 +6,7 @@ class Contact extends Component {
         return (
             <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }} >
                 <Row style={{
-                    marginTop: "7rem",
+                    marginTop: "6.1rem",
                     marginLeft: "6rem",
                 }}>
                     <Col lg={4} >

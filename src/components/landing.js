@@ -19,7 +19,7 @@ export default class landing extends Component {
         return (
             <>
                 <Row className="landing-grid" style={{
-                    MarginTop: "15rem",
+
                     width: '100%',
                 }}>
 

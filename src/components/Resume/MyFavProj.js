@@ -29,10 +29,11 @@ export default function MyFavProj() {
                 }} lg={6}>
 
                     <h2 className="text-center" style={{
-                        color: "White"
+
                     }}>Company Management System</h2>
+                    <hr />
                     <h3 style={{
-                        color: "white"
+
                     }} className="text-center">Tech Used: React,Redux,Python-Django-Rest,D3,Docker,Git,Scss,Styled Components</h3>
                     <ListGroup>
 

@@ -134,7 +134,7 @@ class Projects extends React.Component {
 
             <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                 <Row style={{
-                    marginTop: "7rem",
+                    marginTop: "6.1rem",
                     marginBottom: "1.3rem"
                 }}>
                     <Col sm={3}>

@@ -9,7 +9,7 @@ export default class Login extends Component {
     render() {
         return (
             <div className="auth-wrapper" style={{
-                marginTop: "10rem",
+                marginTop: "6.1rem",
                 marginBottom: "3.5rem",
 
 
