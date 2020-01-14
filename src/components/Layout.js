@@ -94,11 +94,11 @@ export default class NavBar extends React.Component {
               }}> <i style={{
                 color: "yellow"
               }} className="fa fa-tasks"></i> Projects</Button></NavLink>
-              <NavLink to="/contact"> <Button style={{
+              <NavLink to="/courses"> <Button style={{
                 color: "violet"
               }}><i style={{
                 color: "violet"
-              }} className="fa fa-address-book"></i> Admin</Button></NavLink>
+              }} className="fa fa-address-book"></i> Courses</Button></NavLink>
               <NavLink to="/Login"> <Button style={{
                 color: "#166557"
               }}>

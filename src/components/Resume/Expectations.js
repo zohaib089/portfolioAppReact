@@ -33,7 +33,6 @@ export default function Expectations() {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    // date="2010 - 2011"
                     contentStyle={{ background: '#F4F5F0', color: '#111' }}
                     iconStyle={{ background: '#F4F5F0', color: '#fff' }}
                     icon={<img src={Redux} width="40" height="40" alt="reduxImg" style={{
@@ -49,7 +48,6 @@ export default function Expectations() {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    // date="2008 - 2010"
                     contentStyle={{ background: '#CD212A', color: '#fff' }}
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     icon={<img src=" https://img.icons8.com/color/40/000000/javascript.png" style={{
@@ -65,7 +63,6 @@ export default function Expectations() {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    // date="2006 - 2008"
                     contentStyle={{ background: '#008C45', color: '#fff' }}
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     icon={<img src=" https://img.icons8.com/color/40/000000/python.png" style={{
@@ -81,7 +78,6 @@ export default function Expectations() {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    // date="April 2013"
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                     icon={<img src=" https://img.icons8.com/color/40/000000/react-native.png" style={{
                         marginLeft: ".6rem",
@@ -96,7 +92,6 @@ export default function Expectations() {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    // date="November 2012"
                     contentStyle={{ background: '#CD212A', color: '#fff' }}
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                     icon={<img src={TS} height="40" width="40" style={{
@@ -112,7 +107,6 @@ export default function Expectations() {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    // date="2002 - 2006"
                     contentStyle={{ background: '#008C45', color: '#fff' }}
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                     icon={<img src=" https://img.icons8.com/dusk/40/000000/java-coffee-cup-logo.png" style={{

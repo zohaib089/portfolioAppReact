@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import Project from "./project/Project";
 class Projects extends React.Component {
     state = {
-        detailedProduct: {},
         reactProjects: [
             {
                 id: 1,
@@ -108,17 +107,6 @@ class Projects extends React.Component {
     }
 
 
-    selectedProject = (id) => {
-        this.state.reactProjects.filter((product) => {
-            if (product.id === id) {
-                return product
-            }
-            else {
-                return null;
-            }
-        })
-    }
-
     ReactProjects = () => (
         this.state.reactProjects.map(proj => {
             return (
@@ -133,10 +121,16 @@ class Projects extends React.Component {
 
 
             <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+                <h1 className="text-center mt-2" style={{
+                    marginLeft: "10rem"
+                }}>Search
+                    <input type="text" placeholder="Enter Your Query" />
+                </h1>
                 <Row style={{
-                    marginTop: "6.1rem",
+                    marginTop: "1rem",
                     marginBottom: "1.3rem"
                 }}>
+
                     <Col sm={3}>
                         <Nav variant="pills" className="flex-column">
                             <Nav.Item>

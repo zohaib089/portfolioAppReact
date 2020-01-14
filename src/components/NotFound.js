@@ -1,9 +1,17 @@
 import React from 'react'
+import NotFoundGif from '../img/NotFound.gif'
 
 export default function NotFound() {
     return (
         <div>
-            <h1>Sorry Your Requested Page is not Found</h1>
+
+            <img className="img-fluid" src={NotFoundGif} style={{
+                width: "100%",
+                height: "80vh",
+                opacity: "0.8",
+                border: "2px solid gray",
+                borderRadius: "20px"
+            }} alt="Gifffiiii" />
         </div>
     )
 }

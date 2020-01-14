@@ -16,9 +16,7 @@ class Resume extends Component {
     render() {
         return (
             <Container className="container-fluid"
-                style={{
-                    marginTop: "6.1rem"
-                }}
+
 
             >
                 <Header />

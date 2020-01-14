@@ -19,7 +19,7 @@ export default class landing extends Component {
         return (
             <>
                 <Row className="landing-grid" style={{
-
+                    paddingTop: "0",
                     width: '100%',
                 }}>
 
@@ -29,7 +29,7 @@ export default class landing extends Component {
                                 <img src={Avt} alt="avatar" className="avatar-img" style={{
                                     height: "150px",
                                     borderRadius: "50px",
-                                    marginTop: "1.5rem",
+
                                     opacity: "0.7",
                                     marginBottom: "5px"
                                 }} />

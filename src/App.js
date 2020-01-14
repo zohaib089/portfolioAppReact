@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import Landing from './components/landing';
-import Contact from './components/contact';
+import Courses from './components/Courses';
 import Resume from './components/resume';
 import Projects from './components/projects';
 import ProjectDetail from './components/project/ProjectDetail';
@@ -11,6 +11,7 @@ import Register from './components/auth/Register';
 import NavBar from './components/Layout';
 import MiniFooter from './components/Footer';
 import Progress from './components/progressBar/ProgressBar';
+import NotFound from './components/NotFound'
 class App extends React.Component {
   state = {
     scrollPostion: 0
@@ -57,13 +58,13 @@ class App extends React.Component {
 
         <Switch>
           <Route exact path="/" component={Landing} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/courses" component={Courses} />
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/projects/:id" component={ProjectDetail} />
           <Route exact path="/Login" component={Login} />
           <Route exact path="/Register" component={Register} />
-          {/* <Route component={NotFound} /> */}
+          <Route component={NotFound} />
         </Switch>
         <MiniFooter />
       </div>

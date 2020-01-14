@@ -33,7 +33,9 @@ export default class Project extends Component {
                                     pathname: `/projects/` + id,
                                     myCustomProps: this.props.proj
                                 }
-                            } state={this.props.proj}>
+                            } style={{
+                                color: "white"
+                            }}>
                                 Detail
                             </Link> </Button>
                         </Card.Body>
